@@ -6,6 +6,8 @@ public class Operazione {
                 System.out.println("Il risultato dell'addizione è:  " + addizione);
                 break;
             case '-' :
+                double sottrazione = Sottrazione.sottrazione(x,y);
+                System.out.println("Il risultato della sottrazione è:  " + sottrazione);
                 break;
             case '*' :
                 double result=Multiplication.moltiplicazione(x,y);
