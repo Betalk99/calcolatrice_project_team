@@ -3,7 +3,7 @@ public class Operazione {
         switch (oper){
             case '+' :
                 double addizione = Somma.somma(x,y);
-                System.out.println("Questa è un addizione " + addizione);
+                System.out.println("Il risultato dell'addizione è:  " + addizione);
                 break;
             case '-' :
                 break;
