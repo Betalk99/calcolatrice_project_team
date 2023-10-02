@@ -14,6 +14,7 @@ public class Main {
 
         Operazione.whatOper(valUno, valDue, oper);  //richiamo del metodo per capire tipo di operazione
 
+        EvenOdd.evenOdd(valUno, valDue, in);
     }
 
 
