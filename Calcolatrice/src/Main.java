@@ -12,7 +12,7 @@ public class Main {
         double valDue = in.nextInt();   // input da tastiera
 
 
-        Operazione.whatOper(valUno, valDue, oper, in);  //richiamo del metodo per capire tipo di operazione
+        Operazione.whatOper(valUno, valDue, oper);  //richiamo del metodo per capire tipo di operazione
 
         EvenOdd.evenOdd(valUno, valDue, in);
     }
