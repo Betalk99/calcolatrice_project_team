@@ -2,7 +2,8 @@ public class Operazione {
     public static void whatOper(double x, double y, char oper){ //metodo per capire quale operazione
         switch (oper){
             case '+' :
-                System.out.println(x +y);
+                double addizione = Somma.somma(x,y);
+                System.out.println("Questa è un addizione " + addizione);
                 break;
             case '-' :
                 break;
