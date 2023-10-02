@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class Operazione {
-    public static void whatOper(double x, double y, char oper){ //metodo per capire quale operazione
+    public static void whatOper(double x, double y, char oper, Scanner in){ //metodo per capire quale operazione
         switch (oper){
             case '+' :
                 double addizione = Somma.somma(x,y);
@@ -15,6 +17,10 @@ public class Operazione {
                 break;
             case '/' :
                 Division.divisione(x,y);
+                break;
+            case '^' :
+                double uguale = Potenza.timesItself(x,y);
+                System.out.println("Il risultato è: "+uguale);
                 break;
             default:
                 System.out.println("Operazione errata!");
