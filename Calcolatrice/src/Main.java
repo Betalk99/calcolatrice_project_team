@@ -12,26 +12,11 @@ public class Main {
         double valDue = in.nextInt();   // input da tastiera
 
 
+        Operazione.whatOper(valUno, valDue, oper);  //richiamo del metodo per capire tipo di operazione
 
-
-        whatOper(valUno, valDue, oper); //richiamo del metodo per capire tipo di operazione
     }
 
-    public static void whatOper(double x, double y, char oper){ //metodo per capire quale operazione
-        switch (oper){
-            case '+' :
-                break;
-            case '-' :
-                break;
-            case '*' :
-                break;
-            case '/' :
-                break;
-            default:
-                System.out.println("Operazione errata!");
-                break;
-        }
-    }
+
 
 
 
