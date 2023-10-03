@@ -1,4 +1,6 @@
 
+import java.util.Scanner;
+
 public class Operazione {
     public static void whatOper(double x, double y, char oper){ //metodo per capire quale operazione
         switch (oper){

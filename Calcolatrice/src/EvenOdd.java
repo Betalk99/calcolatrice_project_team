@@ -3,7 +3,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 public class EvenOdd {
-    public static void evenOdd (double a, double b, Scanner in) {
+    public static void evenOdd (double a, double b,Scanner in) {
         System.out.println("Di quale dei due valori vuoi verificare il tipo? (1) o (2)");
         char risposta = in.next().charAt(0);
         if (risposta == '1') {
