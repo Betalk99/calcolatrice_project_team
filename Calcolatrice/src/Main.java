@@ -21,7 +21,7 @@ public class Main {
 
             System.out.println("Vuoi continuare? Y(yes)/N(No) ");
             char risp = in.next().charAt(0);
-            if(risp == 'N'){
+            if(risp == 'n' || risp == 'N'){
                 stay = true;
             }
 
