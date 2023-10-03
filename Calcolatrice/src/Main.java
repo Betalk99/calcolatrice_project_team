@@ -23,6 +23,11 @@ public class Main {
             char risp = in.next().charAt(0);
             if(risp == 'n' || risp == 'N'){
                 stay = true;
+            } else if (risp == 'y' || risp == 'Y') {
+                stay = false;
+            } else {
+                System.out.println("Valore errato!");
+                stay = true;
             }
 
         }
